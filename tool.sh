@@ -179,7 +179,7 @@ sudo git clone https://github.com/sa7mon/S3Scanner.git
 pip install -r requirements.txt
 
 echo "-------------------------------------------------------------------"
-echo "----- S3Scanner Installed....becuase we love Dan! Next Tool! -----"
+echo "---------------- S3Scanner Installed, Next Tool! --------------"
 echo "-------------------------------------------------------------------"
 
 # https://github.com/DanMcInerney/icebreaker
