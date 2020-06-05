@@ -11,6 +11,7 @@ sudo apt-get install python3 -y
 sudo apt-get install screen -y
 pip install --upgrade pip
 sudo apt-get install unixodbc-dev
+sudo apt install libpq-dev python3-dev
 python3.6 -m pip install pyodbc
 pip install ldapdomaindump
 
