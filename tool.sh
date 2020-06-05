@@ -165,21 +165,12 @@ echo "-------------------------------------------------------------------"
 echo "--------------- nmap-vulners Installed, Next Tool! ----------------"
 echo "-------------------------------------------------------------------"
 
-# https://github.com/abhaybhargav/bucketeer
-
-# Bucketeer is a small script that builds off the useful Sublist3r tool. The Tool tries to identify S3 Buckets and other useful subdomain information, that is used to perform subdomain takeover attacks.
-
-sudo git clone https://github.com/abhaybhargav/bucketeer.git
-
-echo "-------------------------------------------------------------------"
-echo "--------------- Bucketeer Installed, Next Tool! ----------------"
-echo "-------------------------------------------------------------------"
-
 # https://github.com/sa7mon/S3Scanner
 
 # Scan for open AWS S3 buckets and dump the contents
 
 sudo git clone https://github.com/sa7mon/S3Scanner.git
+cd S3Scanner
 pip install -r requirements.txt
 
 echo "-------------------------------------------------------------------"
@@ -317,7 +308,7 @@ echo "-------------------------------------------------------------------"
 # Multi-Tooled Phishing Framework.
 
 sudo git clone https://github.com/s1l3nt78/TigerShark.git
-sudo cd TigerShark
+cd TigerShark
 sudo chmod +x install.sh
 sudo ./install.sh
 
@@ -340,7 +331,7 @@ echo "-------------------------------------------------------------------"
 # CORS Misconfiguration Scanner
 
 sudo git clone https://github.com/s0md3v/Corsy
-sudo cd Corsy
+cd Corsy
 sudo pip3 install -r requirements.txt
 
 echo "-------------------------------------------------------------------"
@@ -351,9 +342,9 @@ echo "-------------------------------------------------------------------"
 
 # hackerEnv is an automation tool that quickly and easily sweep IPs and scan ports, vulnerabilities and exploit them. Then, it hands you an interactive shell for further testing. Also, it generates HTML and docx report
 
-sudo cd /opt/
+cd /opt/
 sudo git clone https://github.com/abdulr7mann/hackerEnv.git
-sudo cd /opt/hackerEnv
+cd /opt/hackerEnv
 sudo chmod +x hackerEnv
 sudo ln -s /opt/hackerEnv/hackerEnv /usr/local/bin/
 
