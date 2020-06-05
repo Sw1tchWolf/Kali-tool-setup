@@ -368,7 +368,6 @@ echo "-------------------------------------------------------------------"
 git clone https://github.com/Shifty0g/ultimate-nmap-parser/
 cd ultimate-nmap-parser/
 chmod +x ultimate-nmap-parser.sh
-./ultimate-nmap-parser.sh
 
 echo "-------------------------------------------------------------------"
 echo "--------------- Nmap Parser Installed, Next Tool! ----------------"
