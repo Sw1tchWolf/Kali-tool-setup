@@ -121,7 +121,8 @@ echo "-------------------------------------------------------------------"
 
 # Impacket is a collection of Python classes for working with network protocols.
 
-sudo git clone https://github.com/SecureAuthCorp/impacket && cd impacket
+sudo git clone https://github.com/SecureAuthCorp/impacket.git
+cd impacket
 pip install .
 cd /opt
 
