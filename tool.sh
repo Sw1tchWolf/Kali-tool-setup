@@ -10,6 +10,8 @@ sudo apt-get install git -y
 sudo apt-get install python3 -y
 sudo apt-get install screen -y
 pip install --upgrade pip
+sudo apt-get install unixodbc-dev
+python3.6 -m pip install pyodbc
 pip install ldapdomaindump
 
 cd /opt
@@ -270,7 +272,7 @@ echo "-------------------------------------------------------------------"
 
 sudo apt install build-essential libsqlite3-dev libseccomp-dev libsodium-dev publicsuffix
 sudo clone https://github.com/kpcyrd/sn0int.git
-sudo sn0int
+cd sn0int
 sudo install -f --path .
 
 echo "-------------------------------------------------------------------"
@@ -281,12 +283,9 @@ echo "-------------------------------------------------------------------"
 
 # OSINT / Threat Intel CLI tool.
 
-sudo pip install harpoon
-
-# If install failed, run the following 3 lines
-# git clone https://github.com/Te-k/harpoon.git
-# cd harpoon
-# pip3 install .
+sudo git clone https://github.com/Te-k/harpoon.git
+cd harpoon
+sudo pip3 install .
 
 echo "-------------------------------------------------------------------"
 echo "--------------- Harpoon Installed, Next Tool! ----------------"
