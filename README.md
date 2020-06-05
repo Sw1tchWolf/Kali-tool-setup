@@ -3,6 +3,7 @@ Script to install various tools for new Kali installs
 
 <b>Install instructions:</b><br>
 git clone https://github.com/Sw1tchWolf/Kali-tool-setup.git<br>
+sed -i -e 's/\r$//' tool.sh <br>
 ./tool.sh
 
 <h2> Troubleshooting </h2>
