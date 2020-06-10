@@ -9,6 +9,7 @@ sudo apt-get dist-upgrade -y
 sudo apt-get install git -y
 sudo apt-get install python3 -y
 sudo apt-get install screen -y
+sudo apt-get install open-vm-tools-desktop fuse
 pip install --upgrade pip
 sudo apt-get install unixodbc-dev
 sudo apt install libpq-dev python3-dev
