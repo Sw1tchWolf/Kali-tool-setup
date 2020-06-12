@@ -230,6 +230,8 @@ sudo usermod -aG docker $USER
 # configure Docker to start on boot
 sudo systemctl enable docker
 
+sudo chmod +x /usr/local/bin/docker-compose
+
 echo "-------------------------------------------------------------------"
 echo "--------------- Docker Installed, Next Tool! ----------------"
 echo "-------------------------------------------------------------------"
